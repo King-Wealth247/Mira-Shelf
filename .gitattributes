@@ -1,0 +1,12 @@
+# Normalize line endings: text files use LF in the repo.
+* text=auto eol=lf
+
+# Binary assets (add as needed)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.epub binary
+*.keystore binary
+*.jks binary

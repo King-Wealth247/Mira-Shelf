@@ -1,0 +1,25 @@
+{
+  "name": "mira-shelf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-Powered E-Book Library — monorepo root (frontend, Supabase, companion service, scripts).",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "app",
+    "services/companion",
+    "scripts"
+  ],
+  "scripts": {
+    "lint": "echo \"TODO(Phase 4): configure eslint across workspaces\" && exit 0",
+    "typecheck": "echo \"TODO(Phase 4): tsc --noEmit across workspaces\" && exit 0",
+    "test": "echo \"TODO(Phase 2+): jest + pgTAP + function tests\" && exit 0",
+    "db:start": "supabase start",
+    "db:reset": "supabase db reset",
+    "db:test": "supabase test db",
+    "seed:dev": "echo \"TODO(Phase 3): node scripts/seed-dev-users\" && exit 0",
+    "seed:verify": "echo \"TODO(Phase 3): node scripts/verify\" && exit 0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
